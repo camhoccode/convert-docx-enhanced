@@ -1,0 +1,18 @@
+# Python Requirements for Math OCR
+# Install with: pip install -r requirements.txt
+
+# Core dependencies
+torch>=2.0.0
+pillow>=10.0.0
+
+# OCR Libraries
+pix2tex>=0.1.0
+easyocr>=1.7.0
+
+# API Server (optional, for math-ocr-service.py)
+fastapi>=0.104.0
+uvicorn>=0.24.0
+pydantic>=2.0.0
+
+# For CUDA GPU support, install PyTorch with CUDA:
+# pip install torch --index-url https://download.pytorch.org/whl/cu124
