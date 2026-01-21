@@ -5,3 +5,9 @@ output/
 temp/
 *.log
 .DS_Store
+
+# Environment variables
+.env
+.env.*
+.env.local
+.env.production
